@@ -4,6 +4,7 @@ using namespace std;
 int main (){
     int g;
     char letter;
+    
 
     cout << "Ingrse su nota (0 - 100)" << endl;
     cin >> g; 
@@ -29,26 +30,26 @@ int main (){
     }
 
     switch (letter){
-        case A: 
-        cout << "Excelente nota" << endl;
+    case 'A': 
+        cout << " Excelente nota" << endl;
         break;
-        case B:
-        cout << "Muy bien" << endl;
+    case 'B':
+        cout << " Muy bien" << endl;
         break;
-        case C:
-        cout << "Puede mejorar" << endl;
+    case 'C':
+        cout << " Puede mejorar" << endl;
         break;
-        case D: 
-        cout << "Buen intento" << endl;
+    case 'D': 
+        cout << " Buen intento" << endl;
         break;
-        case E:
-        cout << "Esfuerzate mas" << endl;
+    case 'E':
+        cout << " Esfuerzate mas" << endl;
         break;
-        case F:
-        cout << "Has reprobado" << endl;
+    case 'F':
+        cout << " Has reprobado" << endl;
         break;
-        default: 
-        cout << "invalid option." << endl;
+    default:  
+        cout << " invalid option." << endl;
         break;
 
     }
